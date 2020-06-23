@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "local": "node serve.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -30,6 +31,8 @@
     "less": "^3.0.4",
     "less-loader": "^5.0.0",
     "prettier": "^1.19.1",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "vue-meta-info": "^0.1.7",
+    "prerender-spa-plugin": "^3.4.0"
   }
 }

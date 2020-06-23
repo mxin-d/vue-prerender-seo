@@ -10,6 +10,16 @@
 import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
+  metaInfo: {
+    title: "Home", // set a title
+    meta: [
+      {
+        // set meta
+        name: "description",
+        content: "My Example App"
+      }
+    ]
+  },
   name: "Home",
   components: {
     HelloWorld
