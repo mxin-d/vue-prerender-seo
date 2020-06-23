@@ -1,8 +1,23 @@
 # vue-prerender-seo
 
+| Deps | README |
+| ------ | ------ |
+| prerender-spa-plugin | [prerender-spa-plugin][psp] |
+| vue-meta-info | [vue-meta-info][vmi] |
+| Vue | [Vue 2][vue] |
+
+[psp]: <https://github.com/chrisvfritz/prerender-spa-plugin>
+[vmi]: <https://www.npmjs.com/package/vue-meta-info>
+[vue]: <https://vuejs.org/>
+
 ## Project setup
 ```
-npm install
+npm install or cnpm install
+```
+
+### Run your local services for production
+```
+npm run preview:dist
 ```
 
 ### Compiles and hot-reloads for development
@@ -15,15 +30,4 @@ npm run serve
 npm run build
 ```
 
-### Run your unit tests
-```
-npm run test:unit
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

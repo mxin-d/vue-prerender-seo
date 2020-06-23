@@ -7,7 +7,7 @@
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "local": "node serve.js"
+    "preview:dist": "vue-cli-service build && node serve.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
