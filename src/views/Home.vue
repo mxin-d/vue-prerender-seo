@@ -11,12 +11,20 @@ import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
   metaInfo: {
-    title: "Home", // set a title
+    // set a title
+    title: "Home",
+    // set meta
     meta: [
       {
-        // set meta
-        name: "description",
-        content: "My Example App"
+        name: "keyword",
+        content: "My Example Keyword"
+      }
+    ],
+    // set link
+    link: [
+      {
+        rel: "asstes",
+        href: "https://xxx.com/"
       }
     ]
   },
