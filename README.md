@@ -15,7 +15,7 @@
 npm install or cnpm install
 ```
 
-### Run your local services for production
+### Run local service to preview production
 ```
 npm run preview:dist
 ```
